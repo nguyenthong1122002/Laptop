@@ -1,0 +1,103 @@
+/* Reset default margins and paddings */
+
+body,
+ul {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+.vertical.navigation {
+    background-color: #343a40;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.vertical.navigation h2 {
+    margin-bottom: 20px;
+}
+
+.vertical.navigation ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.vertical.navigation a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #343a40;
+}
+
+.vertical.navigation a:hover {
+    background-color: #494e53;
+}
+
+
+/* Style the content */
+
+.content {
+    margin-left: 220px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+/* Style the table */
+
+table {
+    margin-top: 40px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: #fff;
+}
+
+th {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+}
+
+
+/* Style the add button */
+
+.add-button {
+    margin-left: 220px;
+    margin-top: 20px;
+}
+
+.add-button button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.add-button button:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+.link-edit,
+.link-delete {
+    text-decoration: none;
+    color: rgb(5, 42, 250);
+}

@@ -1,0 +1,160 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Main Navigation Styles */
+
+#mainnav {
+    background-color: #d52220;
+}
+
+#mainnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#mainnav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+#mainnav ul li a {
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+#mainnav ul li:hover {
+    background-color: #f1514f;
+}
+
+
+/* Sub-Menu Styles */
+
+#mainnav ul li ul.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #d52220;
+    z-index: 1;
+    right : -5.5%;
+    width: 200px;
+}
+
+#mainnav ul li:hover ul.sub-menu {
+    display: block;
+}
+
+#mainnav ul li ul.sub-menu li {
+    display: block;
+}
+
+#mainnav ul li ul.sub-menu li a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#mainnav ul li ul.sub-menu li:hover {
+    background-color: #f1514f;
+}
+
+
+/* Sub-Sub-Menu Styles */
+
+#mainnav ul li ul.sub-menu li ul.sub-menu2 {
+    display: none;
+    position: absolute;
+    background-color: #d52220;
+    z-index: 1;
+    top: 0;
+    left: 90%;
+    width: 200px;
+}
+
+#mainnav ul li ul.sub-menu li:hover ul.sub-menu2 {
+    display: block;
+}
+
+#mainnav ul li ul.sub-menu li ul.sub-menu2 li {
+    display: block;
+}
+
+#mainnav ul li ul.sub-menu li ul.sub-menu2 li a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#mainnav ul li ul.sub-menu li ul.sub-menu2 li:hover {
+    background-color: #f1514f;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    /* Adjust this value to set the maximum width of the slideshow */
+    margin: 0 auto;
+    /* Center the slideshow horizontally */
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 600px;
+    height: 400px;
+    /* Maintain the aspect ratio of the images */
+}
+
+
+/* Slideshow Navigation Styles */
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.next {
+    right: 0;
+}
+
+
+/* Add some hover effects for the navigation buttons */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+/* Add a fade-in effect for the slides */
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

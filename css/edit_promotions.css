@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea,
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* Apply general styling to all buttons */
+
+input[type="submit"] {
+    margin: auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* Style the button on hover */
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+    /* Change the background color on hover */
+}
+
+
+/* Style the button when it's clicked/active */
+
+input[type="submit"]:active {
+    background-color: #3e8e41;
+    /* Change the background color when clicked */
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #067e20;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4CAF50;
+}

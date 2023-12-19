@@ -1,0 +1,166 @@
+/* Update styles for the laptop cards */
+
+#filterForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+
+/* Label styles */
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+
+/* Select styles */
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+}
+
+
+/* Button styles */
+
+#laptopsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    /* Màu nền của nút */
+    color: #fff;
+    /* Màu chữ của nút */
+    border: none;
+    /* Loại bỏ viền nút */
+    padding: 10px 20px;
+    /* Định dạng kích thước nút */
+    border-radius: 5px;
+    /* Định dạng góc bo tròn */
+    cursor: pointer;
+    /* Biểu tượng con trỏ khi di chuột vào nút */
+}
+
+
+/* Style each laptop card */
+
+#laptopsContainer>div {
+    width: calc(20% - 10px);
+    /* Four cards per row, with a 10px margin between cards */
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+/* Clear any margins for the last card in each row */
+
+#laptopsContainer>div:nth-child(4n) {
+    margin-right: 0;
+}
+
+
+/* Update image styles */
+
+#laptopsContainer img {
+    max-width: 100%;
+    height: 200px;
+}
+
+
+/* Clear default list styles */
+
+#laptopsContainer ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Update laptop card headings */
+
+#laptopsContainer h2 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+
+/* Update laptop card prices */
+
+#laptopsContainer p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+
+/* Style for the pagination container */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+/* Style for the pagination buttons */
+
+.pagination button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.pagination button:hover {
+    background-color: #ddd;
+}
+
+.pagination button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+
+/* Center the pagination buttons vertically */
+
+#prevPageBtn,
+#nextPageBtn {
+    display: flex;
+    align-items: center;
+}
+
+.fiter-laptop {
+    color: black;
+}
+
+#laptopsContainer a {
+    text-decoration: none;
+    color: #000;
+    /* Black text color */
+    border: 1px solid #ccc;
+    /* Add a border to the anchor elements */
+}

@@ -1,0 +1,70 @@
+/* /css/profile.css */
+
+
+/* Body styling */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+
+/* Form container */
+
+.profile-user {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+
+/* Form header */
+
+.profile-user h1 {
+    margin: 0;
+    text-align: center;
+    color: #333;
+}
+
+
+/* Form fields */
+
+.profile-user label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+.profile-user input[type="text"],
+.profile-user input[type="password"],
+.profile-user select,
+.profile-user input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+/* Submit button */
+
+.profile-user input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.profile-user input[type="submit"]:hover {
+    background-color: #45a049;
+}

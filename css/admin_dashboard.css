@@ -1,0 +1,37 @@
+body,
+ul {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+.vertical.navigation {
+    background-color: #343a40;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.vertical.navigation h2 {
+    margin-bottom: 20px;
+}
+.vertical.navigation ul {
+    list-style: none;
+    padding: 0px;
+}
+.vertical.navigation a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color:#343a40 ;
+}
+
+.vertical.navigation a:hover {
+    background-color: #494e53;
+}

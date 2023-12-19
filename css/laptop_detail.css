@@ -1,0 +1,580 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 690px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+
+/* Style for the product image */
+
+.product-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Style for the laptop details */
+
+.laptop_detail {
+    flex: 1;
+}
+
+
+/* Style for the product info */
+
+.product-info-form {
+    margin-top: 10px;
+}
+
+
+/* Style for product details headings */
+
+.product-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+/* Style for individual product details */
+
+.product-info-form p {
+    margin: 5px 0;
+}
+
+
+/* Style for the status */
+
+.status {
+    font-weight: bold;
+}
+
+
+/* Style for the labels */
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+/* Style for the input fields */
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+
+/* Style for the submit button */
+
+input[type="submit"] {
+    width: 73.4%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+}
+
+
+/* Hover effect for the submit button */
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+/* CSS cho phần tử có lớp comment-form */
+
+.comment-form {
+    max-width: 800px;
+    /* Giới hạn chiều rộng của form */
+    margin: 0 auto;
+    /* Căn giữa form trên trang */
+    padding: 20px;
+    /* Tạo khoảng cách giữa nội dung và viền form */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Viền form */
+    background-color: #f9f9f9;
+    /* Màu nền của form */
+}
+
+
+/* CSS cho thẻ h3 bên trong phần tử có lớp comment-form */
+
+.comment-form h3 {
+    color: #333;
+    /* Màu chữ tiêu đề */
+    font-size: 24px;
+    /* Cỡ chữ tiêu đề */
+    margin-bottom: 15px;
+    /* Khoảng cách dưới tiêu đề */
+}
+
+.comment-form-no-login {
+    width: 650px;
+    /* Giới hạn chiều rộng của form */
+    margin: 0 auto;
+    /* Căn giữa form trên trang */
+    padding: 20px;
+    /* Tạo khoảng cách giữa nội dung và viền form */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Viền form */
+    background-color: #f9f9f9;
+    /* Màu nền của form */
+}
+
+
+/* CSS cho thẻ h3 bên trong phần tử có lớp comment-form */
+
+.comment-form-no-login h3 {
+    color: #333;
+    /* Màu chữ tiêu đề */
+    font-size: 24px;
+    /* Cỡ chữ tiêu đề */
+    margin-bottom: 15px;
+    /* Khoảng cách dưới tiêu đề */
+}
+
+
+/* CSS cho thẻ label bên trong phần tử có lớp comment-form */
+
+.comment-form label {
+    display: block;
+    /* Hiển thị thẻ label dưới dạng block để nằm cùng hàng với input/select */
+    margin-bottom: 5px;
+    /* Khoảng cách dưới label */
+}
+
+
+/* CSS cho thẻ input và select bên trong phần tử có lớp comment-form */
+
+.comment-form input[type="submit"],
+.comment-form select {
+    padding: 5px 10px;
+    /* Tạo khoảng cách giữa nội dung và viền input/select */
+    border: 1px solid #ccc;
+    /* Viền input/select */
+    border-radius: 5px;
+    color: white;
+    /* Bo tròn góc của input/select */
+    background-color: #ffffff;
+    /* Màu nền của input/select */
+    font-size: 16px;
+    /* Cỡ chữ của input/select */
+    cursor: pointer;
+    /* Đổi con trỏ chuột thành dấu tay trỏ khi di chuột vào */
+}
+
+
+/* CSS cho thẻ textarea bên trong phần tử có lớp comment-form */
+
+.comment-form input[type="submit"] {
+    background-color: #4CAF50;
+}
+
+.comment-form textarea {
+    padding: 5px;
+    /* Tạo khoảng cách giữa nội dung và viền textarea */
+    border: 1px solid #ccc;
+    /* Viền textarea */
+    border-radius: 5px;
+    /* Bo tròn góc của textarea */
+    background-color: #ffffff;
+    /* Màu nền của textarea */
+    font-size: 16px;
+    /* Cỡ chữ của textarea */
+}
+
+
+/* CSS cho thẻ p và strong bên trong phần tử có lớp comment-form */
+
+.comment-form p,
+.comment-form strong {
+    color: #050000;
+    /* Màu chữ của các đoạn văn bản */
+    font-size: 16px;
+    /* Cỡ chữ của các đoạn văn bản */
+}
+
+
+/* CSS cho thẻ option bên trong phần tử có lớp comment-form */
+
+.comment-form option {
+    font-size: 16px;
+    /* Cỡ chữ của các tùy chọn trong select */
+}
+
+
+/* CSS cho thẻ br bên trong phần tử có lớp comment-form */
+
+.comment-form br {
+    margin-bottom: 10px;
+    /* Khoảng cách dưới từng dòng */
+}
+
+
+/* CSS cho phần tử có lớp comments */
+
+.comments {
+    width: 690px;
+    margin: 0 auto;
+    /* Căn giữa form trên trang */
+    padding: 20px;
+    /* Khoảng cách giữa phần tử comments và các phần tử khác */
+}
+
+
+/* CSS cho phần tử có lớp comment */
+
+.comment {
+    border: 1px solid #ccc;
+    /* Viền comment */
+    padding: 10px;
+    /* Khoảng cách giữa nội dung và viền comment */
+    margin-bottom: 10px;
+    /* Khoảng cách dưới comment */
+}
+
+
+/* CSS cho phần tử có lớp pagination */
+
+.pagination {
+    margin-top: 20px;
+    margin: 0 auto;
+    /* Khoảng cách giữa phần tử pagination và các phần tử khác */
+}
+
+
+/* CSS cho các liên kết trong phần tử có lớp pagination */
+
+.pagination a {
+    display: inline-block;
+    /* Hiển thị liên kết dưới dạng block */
+    padding: 5px 10px;
+    /* Tạo khoảng cách giữa nội dung và viền liên kết */
+    margin-right: 5px;
+    /* Khoảng cách bên phải giữa các liên kết */
+    border: 1px solid #ccc;
+    /* Viền liên kết */
+    border-radius: 5px;
+    /* Bo tròn góc của liên kết */
+    text-decoration: none;
+    /* Loại bỏ gạch chân của liên kết */
+    color: #333;
+    /* Màu chữ của liên kết */
+    background-color: #f9f9f9;
+    /* Màu nền của liên kết */
+}
+
+
+/* CSS cho liên kết trang hiện tại trong phần tử có lớp pagination */
+
+.pagination a.current {
+    font-weight: bold;
+    /* In đậm liên kết trang hiện tại */
+    color: #fff;
+    /* Màu chữ của liên kết trang hiện tại */
+    background-color: #333;
+    /* Màu nền của liên kết trang hiện tại */
+}
+
+.rating-review {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+
+/* Style for the form heading */
+
+.rating-review h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+/* Style for the form elements */
+
+.rating-review .star-total,
+.rating-review .break-down {
+    text-align: center;
+    margin: 20px auto;
+}
+
+
+/* Căn giữa nội dung chính trên trang */
+
+.star-total,
+.break-down {
+    text-align: center;
+    margin: 20px auto;
+}
+
+
+/* Tô màu cho số sao trong phần tổng */
+
+.star-total h1 {
+    font-size: 48px;
+    color: #030300;
+    /* Màu vàng cho số sao tổng */
+    margin-bottom: 10px;
+}
+
+
+/* Tô màu cho số sao trong phần đánh giá từng sao */
+
+.break-down h1 {
+    font-size: 24px;
+    color: #000000;
+    /* Màu vàng cho số sao trong phần đánh giá từng sao */
+    margin-top: 0;
+}
+
+
+/* Tô đậm các sao đã chọn */
+
+.checked {
+    font-weight: bold;
+}
+
+.star-total-total {
+    display: inline-block;
+}
+
+.name-total,
+.number-rating-total {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+/* Thiết lập khoảng cách giữa các sao */
+
+.star-rating {
+    margin: 5px 0;
+    font-size: x-large;
+    display: flex;
+    color: #000;
+    /* Add flex display to align stars and number horizontally */
+    align-items: center;
+    /* Align items (stars and number) vertically */
+    justify-content: center;
+    /* Align items (stars and number) horizontally to the left */
+}
+
+
+/* Tô màu cho số sao */
+
+.star-rating span {
+    color: #777;
+    /* Màu xám cho số sao */
+}
+
+
+/* Tô màu cho số sao đã chọn */
+
+.star-rating .checked {
+    color: #ffd700;
+    /* Màu vàng cho số sao đã chọn */
+}
+
+
+/* Reset margin for h1 elements inside .star-rating */
+
+.star-rating h1 {
+    margin: 0;
+}
+
+
+/* Margin between star icons and number */
+
+.star-rating .number-rating {
+    margin-left: 10px;
+    display: inline-block;
+    /* Change to inline-block to make the number appear in line */
+    vertical-align: middle;
+    /* Align the number rating vertically with stars */
+}
+
+.number-rating {
+    color: #050000;
+}
+
+
+/* Vertically align stars within the star-rating container */
+
+.star-rating .fa-star {
+    vertical-align: middle;
+}
+
+#rating {
+    color: #000;
+}
+
+.add-to-cart-form {
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 690px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.add-to-cart-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-to-cart-form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.add-to-cart-form input[type="number"] {
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.add-to-cart-form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.add-to-cart-form-nologin {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 690px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.add-to-cart-form-nologin form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-to-cart-form-nologin label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.add-to-cart-form-nologin input[type="number"] {
+    width: 50px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: not-allowed;
+}
+
+.add-to-cart-form-nologin p {
+    color: #666;
+    text-align: center;
+}
+
+.product-details-nologin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 690px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.product-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+}
+
+.laptop_detail {
+    padding-left: 20px;
+}
+
+.product-info-form h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-info-form p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.product-info-form .status {
+    font-weight: bold;
+    color: green;
+    /* You can adjust the color according to your design */
+}
+
+.product-info-form p:last-child {
+    margin-bottom: 0;
+}

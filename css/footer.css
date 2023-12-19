@@ -1,0 +1,28 @@
+/* update css */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    /* Fill the remaining vertical space */
+}
+
+footer {
+    background-color: #27343e;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.footer-index {
+    color: white;
+    font-weight: bold;
+}
