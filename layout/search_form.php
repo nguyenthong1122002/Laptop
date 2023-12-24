@@ -4,5 +4,5 @@
     $search_term = isset($_POST['search_term']) ? $_POST['search_term'] : '';
     ?>
     <input type="text" placeholder="Tìm kiếm..." name="search_term" value="<?php echo htmlspecialchars($search_term); ?>">
-    <button type="submit" name="search">Tìm kiếm</button>
+    <button type="submit" name="search">Search</button>
 </form>

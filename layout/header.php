@@ -15,10 +15,10 @@
       </div>
     </div>
     <div class="notifications">
-      <a href="PromotionController.php" style="margin:10px;color:#fff;padding:10px;text-align:center;">Chương trình khuyến mãi</a>
+      <a href="PromotionController.php" style="margin:10px;color:#fff;padding:10px;text-align:center;">Promotion</a>
     </div>
     <div class="fiter">
-      <a href="filter.php" style="margin:10px;color:#fff;padding:10px;text-align:center;">Bộ lọc tìm kiếm</a>
+      <a href="filter.php" style="margin:10px;color:#fff;padding:10px;text-align:center;">Filter</a>
     </div>
     <div class="user-info">
       <?php include 'user_dropdown.php'; ?>

@@ -2,9 +2,11 @@
 
 
 /* Reset some default styles for consistency */
-
+*{
+    font-family: Arial, sans-serif;  
+    font-style: bold;
+}
 body {
-    font-family: Arial, sans-serif;
     margin: auto;
     padding: 0;
     line-height: 1.6;
@@ -14,7 +16,7 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-color: #ee2624;
+    background-color: #313131;
     padding: 5px;
     display: flex;
     align-items: center;
@@ -50,7 +52,7 @@ header {
 .search-bar button {
     padding: 8px 16px;
     margin-left: 10px;
-    background-color: #d52220;
+    background-color: #f8c03b;
     color: #fff;
     border: none;
     border-radius: 12px;
@@ -149,7 +151,7 @@ a {
     width: 100px;
     height: 30px;
     background-color: transparent;
-    background-color: #d52220;
+    background-color: #f8c03b;
     color: #f7f7f7;
     border: 2px solid #960404;
     border-radius: 15px;
@@ -162,7 +164,7 @@ a {
 }
 
 .fiter {
-    background-color: #d52220;
+    background-color: #f8c03b;
     color: #f7f7f7;
     border: 2px solid #960404;
     border-radius: 15px;
@@ -194,7 +196,7 @@ a {
 }
 
 .notifications {
-    background-color: #d52220;
+    background-color: #f8c03b;
     color: #f7f7f7;
     border: 2px solid #960404;
     border-radius: 15px;
@@ -204,7 +206,7 @@ a {
 }
 
 .dropdown-toggle {
-    background-color: #d52220;
+    background-color: #f8c03b;
     color: #f7f7f7;
     border: 2px solid #960404;
     border-radius: 15px;

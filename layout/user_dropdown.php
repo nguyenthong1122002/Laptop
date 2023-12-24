@@ -22,7 +22,7 @@ if (isset($_SESSION['user_id'])) {
     <?php
 } else {
     // Chưa đăng nhập, hiển thị liên kết đăng nhập và đăng ký dưới dạng button
-    echo '<button class="auth-btn" onclick="openModal(\'login\')">Đăng nhập</button>';
-    echo '<button class="auth-btn" onclick="openModal(\'register\')">Đăng ký</button>';
+    echo '<button class="auth-btn" onclick="openModal(\'login\')">Sign in</button>';
+    echo '<button class="auth-btn" onclick="openModal(\'register\')">Sign up</button>';
 }
 ?>
