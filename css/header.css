@@ -57,6 +57,7 @@ header {
     border: none;
     border-radius: 12px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .user-info {
@@ -75,6 +76,9 @@ a {
     text-decoration: none;
     color: black;
     /* In đậm văn bản của đường dẫn */
+}
+.user-info a:hover {
+    color: black;
 }
 
 .cart {
@@ -140,11 +144,7 @@ a {
 
 .search-bar button:hover,
 .cart:hover {
-    background-color: #f1514f;
-}
-
-.user-info a:hover {
-    color: #555;
+    color : black;
 }
 
 .auth-btn {
@@ -153,7 +153,7 @@ a {
     background-color: transparent;
     background-color: #f8c03b;
     color: #f7f7f7;
-    border: 2px solid #960404;
+    border: 2px solid #676767;
     border-radius: 15px;
     cursor: pointer;
     margin-left: 10px;
@@ -166,7 +166,7 @@ a {
 .fiter {
     background-color: #f8c03b;
     color: #f7f7f7;
-    border: 2px solid #960404;
+    border: 2px solid #676767;
     border-radius: 15px;
     margin-left: 10px;
     text-align: center;
@@ -198,7 +198,7 @@ a {
 .notifications {
     background-color: #f8c03b;
     color: #f7f7f7;
-    border: 2px solid #960404;
+    border: 2px solid #676767;
     border-radius: 15px;
     margin-left: 10px;
     font-size: 16PX;
@@ -208,10 +208,10 @@ a {
 .dropdown-toggle {
     background-color: #f8c03b;
     color: #f7f7f7;
-    border: 2px solid #960404;
+    border: 2px solid #676767;
     border-radius: 15px;
     margin-left: 10px;
-    font-size: 16PX;
+    font-size: 16px;
     font-weight: bold;
     padding: 6px;
 }
