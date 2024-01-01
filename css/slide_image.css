@@ -11,6 +11,7 @@ body {
 
 #mainnav {
     background-color: #f8c03b;
+    font-weight: bold;
 }
 
 #mainnav ul {
@@ -34,7 +35,7 @@ body {
 }
 
 #mainnav ul li:hover {
-    background-color: #f1514f;
+    background-color: #313131;
 }
 
 
@@ -43,9 +44,9 @@ body {
 #mainnav ul li ul.sub-menu {
     display: none;
     position: absolute;
-    background-color: #d52220;
+    background-color: #313131;
     z-index: 1;
-    right : -5.5%;
+    right : -4.5%;
     width: 200px;
 }
 
@@ -64,7 +65,7 @@ body {
 }
 
 #mainnav ul li ul.sub-menu li:hover {
-    background-color: #f1514f;
+    background-color: #f8c03b;
 }
 
 
@@ -73,7 +74,7 @@ body {
 #mainnav ul li ul.sub-menu li ul.sub-menu2 {
     display: none;
     position: absolute;
-    background-color: #d52220;
+    background-color: #313131;
     z-index: 1;
     top: 0;
     left: 90%;
@@ -95,7 +96,7 @@ body {
 }
 
 #mainnav ul li ul.sub-menu li ul.sub-menu2 li:hover {
-    background-color: #f1514f;
+    background-color: #f8c03b;
 }
 
 .slideshow-container {

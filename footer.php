@@ -9,8 +9,8 @@
 <body >
       <!-- ============== Footer ============= -->
       <footer><div class="copy-right">
-          <p class="footer-index" ><a class="footer-index" href="index.html">LDD Phone Store</a> - All rights reserved © 2021 - Designed by
-              <span class="footer-index" >group US</span></p>
+          <p class="footer-index" ><a class="footer-index" href="index.html">HR Electronic Store</a> - All rights reserved © 2024 - Designed by
+              <span class="footer-index" >group HR</span></p>
       </div></footer>
       
 </body>

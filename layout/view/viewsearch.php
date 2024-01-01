@@ -22,16 +22,16 @@ class Viewsearch {
         if ($totalProducts > 20) {
             echo "<button id='loadMoreBtn'>Xem thêm</button>";
         } else {
-            echo "<p class='show_all'>Đã hiển thị tất cả kết quả.</p>";
+            echo "<p class='show_all' 'style='margin-left:30px;'>Đã hiển thị tất cả kết quả.</p>";
         }
     }
 
     public function renderNoResult() {
-        echo "<p class='result'>Không tìm thấy kết quả.</p>";
+        echo "<p class='result'style='margin-left:30px;'>Không tìm thấy kết quả.</p>";
     }
 
     public function renderEmptySearch() {
-        echo "<p class='result'>Vui lòng nhập từ khóa tìm kiếm.</p>";
+        echo "<p class='result' style='margin-left:30px;'>Vui lòng nhập từ khóa tìm kiếm.</p>";
     }
 }
 ?>

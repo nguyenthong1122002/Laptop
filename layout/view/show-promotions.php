@@ -18,7 +18,7 @@
                         <img src='<?= SERVER_PATH .   $promotion['image_path'] ?>' alt='<?= $promotion['title'] ?>' style='max-width: 200px;'>
                         </div>
                         <div class="notification-details">
-                            <h1 class='title'>Tiêu đề: <?= $promotion['title'] ?></h1>
+                            <h1 class='title'><?= $promotion['title'] ?></h1>
                             <h1 class='start-date-notifi'>Ngày bắt đầu: <?= $promotion['start_date'] ?></h1>
                             <h1 class='end-date-notifi'>Ngày kết thúc: <?= $promotion['end_date'] ?></h1>
                         </div>
