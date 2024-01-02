@@ -4,7 +4,14 @@
     margin-right: 10%;
 }
 
-
+hr{
+    margin : 15px;
+    margin-left: auto;
+    margin-right:auto;
+    width:1400px;
+    border-color: #828385;
+    border-radius: 5px;
+   }
 /* Product styles */
 
 .laptop {
@@ -41,7 +48,7 @@
 .pagination a {
     display: inline-block;
     padding: 5px 10px;
-    margin: 0 5px;
+    margin: 15px 5px 0px 5px;
     background-color: #f2f2f2;
     color: #333;
     text-decoration: none;
